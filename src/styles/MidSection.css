@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+*{
+    font-family: 'Playfair Display', serif; 
+}
+.MidSection{
+    height:10%;
+}
+.MidSection img{
+    width:100%;
+}
+.MidSection .Btn{
+    position:absolute;
+    top:90%;
+    left:10%;
+    transform:translate(-50%,-50%);
+    font-size: 20px;
+    padding:15px 15px 15px 15px;
+    border:7px #ad5d1c;
+    border-radius: 60%;
+    color:#556B2F;
+    background-color: #f0e0c0;
+    transition: transform 0.3s ease; 
+
+}
+.MidSection .Btn:hover{
+   transform: translate(-50%, calc(-60% - 4%));
+}
+
