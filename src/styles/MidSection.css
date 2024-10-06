@@ -3,7 +3,7 @@
     font-family: 'Playfair Display', serif; 
 }
 .MidSection{
-    height:10%;
+    height:7%;
 }
 .MidSection img{
     width:100%;
@@ -15,14 +15,17 @@
     transform:translate(-50%,-50%);
     font-size: 20px;
     padding:15px 15px 15px 15px;
-    border:7px #ad5d1c;
-    border-radius: 60%;
+    margin:10px #000000;
+   
     color:#556B2F;
-    background-color: #f0e0c0;
+    background-color: #f0e0c0ac;
     transition: transform 0.3s ease; 
 
 }
 .MidSection .Btn:hover{
    transform: translate(-50%, calc(-60% - 4%));
+   color:#425c16;
+   background-color: #be8f32ac;
+   border: 1px solid #556B2F;
 }
 
