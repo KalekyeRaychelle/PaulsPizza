@@ -2,21 +2,20 @@
 
 * {
     font-family: 'Playfair Display', serif;
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
 .Contact {
     display: flex;
-    justify-content: space-between; /* Ensures space between the image and form */
-    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; 
+    align-items: flex-start; 
     padding: 20px;
     background-color: #f0e0c0d1;
 }
 
 .contactLeftSide {
-    flex: 1; /* Takes equal space alongside the form */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,17 +24,19 @@
 .contactLeftSide img {
     max-width: 100%; 
     height: auto;
-    transition: transform 0.8s ease-in-out; /* Slow transition effect */
+    padding:0;
+    margin:0;
+    transition: transform 0.8s ease-in-out;
     cursor: pointer;
 }
 
-/* On hover, the image will slowly enlarge */
+
 .contactLeftSide img:hover {
-    transform: scale(1.2); /* Enlarges the image by 20% */
+    transform: scale(0.95); 
 }
 
 .rightSide {
-    flex: 1; /* Takes equal space alongside the image */
+    flex: 1; 
     padding: 20px;
 }
 

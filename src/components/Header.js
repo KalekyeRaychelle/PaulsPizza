@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'; 
 import Logo from '../assets/pizzaLogo.png';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 
 const Header = () => {
   return (
     <div className="header">
       <div className="leftSide">
-        <img src={Logo} alt='PizzaLogo'/>
+        <img src={Logo} alt='PizzaLogo' />
       </div>
       <div className="title">
         <h2>PAUL'S PIZZA</h2>
       </div>
-      <div className="rightSide">
+      <div className="rightSideHeader">
         <Link to="/">Home</Link>
         <Link to="/Menu">Menu</Link>
         <Link to="/About">About</Link>

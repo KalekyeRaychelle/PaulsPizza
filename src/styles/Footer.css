@@ -1,43 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
-*{
-    font-family: 'Playfair Display', serif; 
-    
-}
-.footer{
-    height:auto;
-    display:flex;
+.footer {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background-color: #f0e0c0;
-   
+    border-top: 2px solid #800020;
 }
 .leftSide{
-    padding-top:4px;
-    padding-bottom:4px;
-    padding-right:25px;
+    padding-right: 70px;
 }
-.leftSide p{
-    font-size: 25px;
-    padding-bottom:8px;
-    padding-right: 10px;
-    padding-left: 5px;
-    color:#800020;
-}
-.midSide{
-    padding-left:250px;
-    padding-top:7px;
-    
-}
-.midSide button {
-    padding: 7px;
+.leftSide p {
+    font-size: 24px;
     color: #800020;
-    font-size: 19px;
-    background-color: #f0e0c0;
-    transition: transform 0.3s ease, color 0.3s ease; 
-    position: relative; 
+}
+
+.midSide button {
+    padding: 12px 25px;
+    color: #800020;
+    font-size: 20px;
+    background-color: #efd49e;
+    border: 2px solid #800020;
+    border-radius: 5px;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .midSide button:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     color: #556B2F;
-    background-color: #efd49e;
-    border: 1px solid #556B2F;
+    background-color: #ffe4b2;
+    border: 2px solid #556B2F;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+
+.socialLinks {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.socialLinks a {
+    font-size: 24px;
+    color: #800020;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #556B2F;
+}
+
+
+.contactInfo {
+    margin-bottom: 10px;
+    color: #800020;
+}
+
+.contactInfo p {
+    margin: 5px 0;
+}
+
+
+.policies {
+    display: flex;
+    gap: 15px;
+}
+
+.policies a {
+    color: #800020;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.policies a:hover {
+    color: #556B2F;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rightSide {
+        align-items: center;
+    }
+
+    .midSide {
+        padding-top: 15px;
+    }
+}
+.midSide{
+    padding-left:20px;
+    padding-right:70px;
 }

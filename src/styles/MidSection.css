@@ -1,31 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
-*{
+
+* {
     font-family: 'Playfair Display', serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
-.MidSection{
-    height:7%;
+
+.MidSection {
+    position: relative;
+    height: auto;
+    overflow: hidden; 
 }
-.MidSection img{
-    width:100%;
+
+.MidSection img {
+    width: 100%; 
+    display: block;
 }
-.MidSection .Btn{
-    position:absolute;
-    top:90%;
-    left:10%;
-    transform:translate(-50%,-50%);
+
+.MidSection .Btn {
+    position: absolute;
+    top: 60%; 
+    
+    left: 10%;
+    transform: translate(-50%, -50%); 
     font-size: 20px;
-    padding:15px 15px 15px 15px;
-    margin:10px #000000;
-   
-    color:#556B2F;
-    background-color: #f0e0c0ac;
-    transition: transform 0.3s ease; 
-
-}
-.MidSection .Btn:hover{
-   transform: translate(-50%, calc(-60% - 4%));
-   color:#425c16;
-   background-color: #423212ac;
-   border: 1px solid #556B2F;
+    padding: 15px;
+    font-weight: 900;
+    color: #556B2F;
+    background-color: rgba(240, 224, 192, 0.8); 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    border-radius: 5px; 
+    border: 2px solid transparent; 
 }
 
+.MidSection .Btn:hover {
+    transform: translate(-50%, calc(-60% - 4%)); 
+    color: #a85bbf;
+    border: 2px solid #708d40;
+}

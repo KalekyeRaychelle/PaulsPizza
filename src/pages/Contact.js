@@ -6,9 +6,9 @@ const Contact = () => {
   const [shake, setShake] = useState(false);
 
   const handleImageClick = () => {
-    setShake(true); // Trigger shake animation on click
+    setShake(true); 
 
-    // Remove the shake class after the animation duration (0.5s in this case)
+    
     setTimeout(() => {
       setShake(false);
     }, 500);
