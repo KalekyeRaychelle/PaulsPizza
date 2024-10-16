@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 *{
     font-family: 'Playfair Display', serif; 
-    background-color: #f0e0c0;
+    
 }
 .footer{
-    height: 50px;
+    height:auto;
     display:flex;
+    background-color: #f0e0c0;
    
 }
 .leftSide{

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the image and form */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    background-color: #f0e0c0d1;
+}
+
+.contactLeftSide {
+    flex: 1; /* Takes equal space alongside the form */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactLeftSide img {
+    max-width: 100%; 
+    height: auto;
+    transition: transform 0.8s ease-in-out; /* Slow transition effect */
+    cursor: pointer;
+}
+
+/* On hover, the image will slowly enlarge */
+.contactLeftSide img:hover {
+    transform: scale(1.2); /* Enlarges the image by 20% */
+}
+
+.rightSide {
+    flex: 1; /* Takes equal space alongside the image */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #cc7a00;
+}
+
+form p {
+    margin-bottom: 5px;
+    font-size: larger;
+}
