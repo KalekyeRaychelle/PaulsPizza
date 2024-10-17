@@ -1,0 +1,23 @@
+.reserveNow button{
+    position: relative;
+    padding:10px 10px 10px 10px;
+    margin:5px 3px 6px 10px;
+    border-radius:5px;
+    border:2px #556B2F solid;
+    background-color: rgba(232, 200, 134, 0.8); 
+    align-items:center;
+    color:#556B2F;
+    font-weight: 900;
+}
+.About p{
+    line-height: 2;
+    font-size: medium;
+    padding:4px 4px 4px 4px;
+}
+.About h3{
+    font-weight: 400;
+    font-size:25px;
+    padding-bottom:4px;
+    padding-top: 3px;
+    padding-left:3%;
+}

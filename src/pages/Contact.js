@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Pic from '../assets/makingpizza.jpeg';
 import '../styles/Contact.css';
+import Transitions from '../components/Transitions';
 
 const Contact = () => {
   const [shake, setShake] = useState(false);
@@ -15,6 +16,7 @@ const Contact = () => {
   };
 
   return (
+    <Transitions>
     <div className='Contact'>
       <div className='contactLeftSide'>
         <img
@@ -37,7 +39,9 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </Transitions>
   );
+ 
 };
 
 export default Contact;
