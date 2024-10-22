@@ -2,12 +2,20 @@ import React, { useRef } from 'react';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import Pic from '../assets/pizzaLeft.jpg';
-import Pic2 from '../assets/midSectionpizz3.jpg';
+import Pic2 from '../assets/pedrotechspecial.jpg';
+import Pic3 from '../assets/pizza4.jpg';
+import Pic4 from '../assets/pizza5.jpg';
+import Pic5 from '../assets/pizza6.jpg';
+
 
 
 const slideImage = [
   { src: Pic, alt: 'Pizza Variety 1' },
-  { src: Pic2, alt: 'Pizza Variety 2' }
+  { src: Pic2, alt: 'Pizza Variety 2' },
+  { src: Pic3, alt: 'Pizza Variety 3' },
+  { src: Pic4, alt: 'Pizza Variety 4' },
+  { src: Pic5, alt: 'Pizza Variety 5' },
+
  
 ];
 
