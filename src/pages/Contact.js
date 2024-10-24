@@ -1,19 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Pic from '../assets/makingpizza.jpeg';
 import '../styles/Contact.css';
 import Transitions from '../components/Transitions';
 
 const Contact = () => {
-  const [shake, setShake] = useState(false);
 
-  const handleImageClick = () => {
-    setShake(true); 
-
-    
-    setTimeout(() => {
-      setShake(false);
-    }, 500);
-  };
 
   return (
     <Transitions>
@@ -22,8 +13,7 @@ const Contact = () => {
         <img
           src={Pic}
           alt='PizzaLogo'
-          className={shake ? 'shake' : ''} 
-          onClick={handleImageClick} 
+          
         />
       </div>
       <div className='rightSide'>
