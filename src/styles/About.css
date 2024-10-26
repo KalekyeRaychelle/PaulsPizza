@@ -135,12 +135,12 @@
     
     
     .shortDescription, .history, .aboutPic2, .Mission, .community, .section3, .testimonials {
-        animation: appear 0.8s ease-in-out forwards; /* You can speed up or adjust */
-        animation-range: entry 0% cover 50%; /* Adjust the range for mobile screens */
+        animation: appear 0.8s ease-in-out forwards;
+        animation-range: entry 0% cover 50%; 
     }
 
     .About h3 {
-        font-size: 28px; /* Reduce the size for smaller screens */
+        font-size: 28px;
         padding-left: 2%;
     }
 
@@ -150,33 +150,33 @@
     }
 
     .section1, .section2, .section3 {
-        flex-direction: column; /* Stack the sections vertically for smaller screens */
-        align-items: center; /* Center-align the content */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .aboutPic2 img {
-        width: 60%; /* Make the image more fluid and responsive */
+        width: 60%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .section3 img {
-        width: 90%; /* Adjust width for images in section 3 */
+        width: 90%; 
     }
 
     .shortDescription button {
-        width: 10%; /* Make the button full width */
-        padding: 8px; /* Adjust padding */
-        font-size: 18px; /* Reduce font size */
+        width: 10%; 
+        padding: 8px;
+        font-size: 18px;
     }
 
     .testimonials {
-        flex-direction: column; /* Stack testimonials for small screens */
+        flex-direction: column; 
         text-align: center;
     }
 
     .shortDescription button {
-        margin-left: 0; /* Center-align button */
-        width: 80%; /* Adjust button width */
+        margin-left: 0; 
+        width: 80%;
     }
 }
