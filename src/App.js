@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import Header from './components/Header'
 import MidSection from './components/MidSection';
 import Footer from './components/Footer';
@@ -11,7 +11,14 @@ import {AnimatePresence} from 'framer-motion';
 
 
 function App() {
+  const [data,setData]=useState(null)
   const location=useLocation()
+  useEffect(()=>{
+    fetch('http://localhost:3400/api')
+    .then(res=>res.json())
+    .then(data=>console.log(data))
+    .catch(err=>console.log(err));
+  })
   return (
     <div className="App">
       
