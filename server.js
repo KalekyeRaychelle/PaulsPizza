@@ -1,10 +1,10 @@
 const express=require('express')
 const app=express()
-const mysql2=require('mysql2')
+
 const cors=require('cors')
 
 app.use(cors())
-app.get('/',(req,res)=>{
+app.get('/api',(req,res)=>{
     return res.json ('From Backend side')
 })
 
