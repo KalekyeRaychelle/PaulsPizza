@@ -1,5 +1,5 @@
 var mysql=require('mysql2')
-const express=require('express')
+
 var connection=mysql.createConnection({
     host:'localhost',
     database:'PaulsPizza',
