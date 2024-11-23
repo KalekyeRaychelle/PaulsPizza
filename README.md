@@ -2,7 +2,7 @@
 Simple react website for an imaginary pizza shop.
 Backend framework:Node.js framework
 Languages used:Javascript
-Dtabase used:SQL
+Database used:SQL
   Landing page:
   ![image](https://github.com/user-attachments/assets/edcc4782-f31f-4b6e-b0be-da6ec96dc1eb)
   About page:
